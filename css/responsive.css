@@ -1,0 +1,117 @@
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 520px){
+  .ftr-4-box {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 15px 0;
+  }
+  .sticky-head{
+    position: static; 
+  }
+}
+
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+  .header{
+    padding:15px;
+  }
+  .slider-box,.header-info,.header p,.toggle-nav{
+    text-align: center;
+  }
+  .slider-box p,
+  .catwrapslider .owl-prev, .catwrapslider .owl-next{
+    display: none;
+  }
+  .slider-box{
+    left: auto;
+    right: auto;
+  }
+  .owl-dots{
+    bottom: 0;
+  }
+  .slider-box h3{
+    font-size: 25px;
+  }
+  .wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"], .wpcf7 textarea{
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .slider-box{
+    left: 10%;
+    right: 10%;
+  }
+  .slider-box h3{
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .toggle-nav button {
+    background: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 8px 0;
+  }
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: -110%;
+    overflow-x: hidden; 
+    transition: 0.5s top ease-in-out;
+    overflow-y: scroll;
+    background: #000;
+    opacity: 0.9;
+    visibility: hidden; 
+  }
+  body.show-main-menu .sidenav{
+    visibility: visible;
+    top: 0;
+    transition: 0.5s top ease-in-out;
+  }
+  .sidenav .close-button {
+    font-size: 36px; 
+    display: block !important;
+  }
+  .toggle-nav span{
+    font-size:30px; 
+    cursor:pointer; 
+    text-align: right;
+  }
+  .main-nav ul ul li,.menubar .nav ul li,.toggle-nav{
+    display: block;
+  }
+  .main-nav ul li a{
+    padding: 8px;
+    margin: 5px 0;
+  }
+  .main-nav ul li ul li a:before{
+    content:"\00BB \00a0";
+  }
+  .main-nav ul.sub-menu a:hover{
+    padding-left:20px !important;
+    background: #fff !important;
+  }
+  .main-nav ul ul{
+    position: static; 
+    width: 100%;
+  }
+  .main-nav ul ul a,.main-nav ul ul ul.sub-menu a{
+    padding-left: 40px;
+  }
+  .main-nav li{
+    display: block;
+    border-bottom: solid 1px #565656;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+ 
+}
